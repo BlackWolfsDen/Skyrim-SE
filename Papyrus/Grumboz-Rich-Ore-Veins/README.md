@@ -35,7 +35,7 @@ MiscObject Property Ore Auto
 {what you get from this Ore Vein}
 LeveledItem property lItemGems10 auto
 {Optional: Gems that may be mined along with ore}
-
+ 
 int Property ResourceCount = 1 Auto
 {how many resources you get per drop}
 
