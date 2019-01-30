@@ -12,7 +12,7 @@ formlist property mineOreToolsList auto
 
 Message Property FailureMessage Auto  
 {Message to say why you can't use this without RequiredWeapon}
-
+ 
 Message Property DepletedMessage Auto  
 {Message to say that this vein is depleted}
 
