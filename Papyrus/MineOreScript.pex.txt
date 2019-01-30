@@ -29,7 +29,6 @@ int Property OLOOP Auto
 int Property GEMMAX = 10 Auto
 int Property GEMLOOP = 10 Auto
 int Property GLOOP Auto
-miscobject Property GemDiamond Auto  
 ;=========================
 
 MiscObject Property Ore Auto  
@@ -218,7 +217,6 @@ Function DropGem()
 GLOOP = Utility.RandomInt(1,GEMLOOP)
 	while GLOOP > 0
 		(game.getPlayer()).addItem(lItemGems10, Utility.RandomInt(1,GEMMAX))
-		(game.getPlayer()).addItem(GemDiamond, Utility.RandomInt(1,GEMMAX))
 		GLOOP -= 1
 	endWhile
 endFunction
