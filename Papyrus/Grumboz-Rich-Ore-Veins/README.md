@@ -1,4 +1,5 @@
 scriptName MineOreScript extends objectReference
+
 ;
 ;This script handles the Ore Veins and handshakes with the mining furniture
 ;===================================================================
