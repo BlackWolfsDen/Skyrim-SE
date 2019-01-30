@@ -2,7 +2,7 @@ scriptName MineOreScript extends objectReference
 ;
 ;This script handles the Ore Veins and handshakes with the mining furniture
 ;===================================================================
- 
+
 
 sound property DrScOreOpen auto
 {sound played when Ore is acquired}
