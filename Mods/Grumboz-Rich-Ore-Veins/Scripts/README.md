@@ -27,10 +27,15 @@ Message Property DepletedMessage Auto
 ; But I have managed to increase them a bit
 
 int Property OREMAX = 20 Auto
+
 int Property ORELOOP = 10 Auto
+
 int Property OLOOP Auto
+
 int Property GEMMAX = 10 Auto
+
 int Property GEMLOOP = 5 Auto
+
 int Property GLOOP Auto
 
 ;=========================
