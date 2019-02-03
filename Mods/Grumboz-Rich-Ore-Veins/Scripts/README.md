@@ -1,6 +1,8 @@
 scriptName MineOreScript extends objectReference
+
 ;
 ;This script handles the Ore Veins and handshakes with the mining furniture
+
 ;===================================================================
 
 
@@ -17,6 +19,7 @@ Message Property DepletedMessage Auto
 {Message to say that this vein is depleted}
 
 ;=========================
+
 ; MAX is the max possible item per drop
 ; LOOP max possibility of item drops
 ; dropping gems seems to require a bit more
@@ -29,6 +32,7 @@ int Property OLOOP Auto
 int Property GEMMAX = 10 Auto
 int Property GEMLOOP = 5 Auto
 int Property GLOOP Auto
+
 ;=========================
 
 MiscObject Property Ore Auto  
