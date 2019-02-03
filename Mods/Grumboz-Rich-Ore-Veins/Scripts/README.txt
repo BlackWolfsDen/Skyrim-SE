@@ -19,7 +19,6 @@ Message Property DepletedMessage Auto
 {Message to say that this vein is depleted}
 
 ;=========================
-
 ; MAX is the max possible item per drop
 ; LOOP max possibility of item drops
 ; dropping gems seems to require a bit more
@@ -27,17 +26,11 @@ Message Property DepletedMessage Auto
 ; But I have managed to increase them a bit
 
 int Property OREMAX = 20 Auto
-
 int Property ORELOOP = 10 Auto
-
 int Property OLOOP Auto
-
 int Property GEMMAX = 10 Auto
-
 int Property GEMLOOP = 5 Auto
-
 int Property GLOOP Auto
-
 ;=========================
 
 MiscObject Property Ore Auto  
