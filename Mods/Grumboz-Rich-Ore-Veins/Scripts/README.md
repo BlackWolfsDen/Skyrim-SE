@@ -62,7 +62,7 @@ mineOreFurnitureScript property myFurniture auto hidden
 
 objectReference property objSelf auto hidden
 {objectReference to self}
-
+ 
 AchievementsScript property AchievementsQuest auto
 
 Location Property CidhnaMineLocation Auto
