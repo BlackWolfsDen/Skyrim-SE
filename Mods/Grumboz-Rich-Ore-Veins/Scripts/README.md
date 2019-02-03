@@ -276,3 +276,4 @@ function depleteOreDueToFailure()
 	self.setDestroyed(true)
 	ResourceCountCurrent = 0
 endFunction
+
