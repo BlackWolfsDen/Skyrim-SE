@@ -22,12 +22,13 @@ Message Property DepletedMessage Auto
 ; work to force higher amounts
 ; But I have managed to increase them a bit
 
-int Property OREMAX = 10 Auto
-int Property ORELOOP = 5 Auto
-int Property OLOOP Auto
-int Property GEMMAX = 10 Auto
-int Property GEMLOOP = 10 Auto
-int Property GLOOP Auto
+int Property OREMAX = 10 Auto Hidden
+int Property ORELOOP = 5 Auto Hidden
+int Property OLOOP Auto Hidden
+int Property OREDROP Auto Hidden
+int Property GEMMAX = 10 Auto Hidden
+int Property GEMLOOP = 10 Auto Hidden
+int Property GLOOP Auto Hidden
 ;=========================
 
 MiscObject Property Ore Auto  
@@ -206,10 +207,13 @@ endFunction
 ;===========================================================================
 Function DropOre()
 OLOOP = Utility.RandomInt(1,ORELOOP)
+OREDROP = 0
+
 	while OLOOP > 0
-		(game.getPlayer()).addItem(Ore, Utility.RandomInt(1,OREMAX))
+		OREDROP += Utility.RandomInt(1,OREMAX)
 		OLOOP -= 1
 	endWhile
+	(game.getPlayer()).addItem(Ore, OREDROP)
 endFunction
 
 Function DropGem()
